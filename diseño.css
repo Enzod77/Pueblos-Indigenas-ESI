@@ -1,0 +1,263 @@
+/**Index**/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(241, 227, 152);
+  
+}
+
+header {
+    background-image: url(Imagenes/plumas.fondo.jpg);
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding-top: 5px
+}
+h1{
+    font-size: 300%; color: rgb(185, 202, 218); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#transparente{
+    background: rgba(39, 26, 26, 0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+.cuerpo {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+}
+section {
+    flex: 1;
+    padding: 20px;
+    background-image: url(Imagenes/papel\ viejo.jpg);
+    background-size: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+#video{
+    position:relative;
+    left: 200px;
+}
+aside {
+    width: 250px;
+    background-image: url(Imagenes/papel\ marron.avif);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/**Section**/
+
+  .tex1{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.articulo{
+    background: #f0da7c;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra */
+    border: 3px solid #e2b24b; /* borde: grosor, estilo y color */
+}
+
+p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+}
+#item{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0px;
+}
+#item{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+}
+#ley{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
+.derecha{
+    font-size: 15px; color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+nav{
+    height: 65px;
+  margin-top: 10px;
+}
+
+.foot{
+    line-height: 35px;
+}
+#footimg{
+    float:left;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#banderaarg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banderaindigena{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#logoesc{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+/**Pueblos (1er archivo)**/
+table{
+border-collapse: collapse;
+width: 800px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra */
+position: relative;
+left: 80px;
+}
+td{
+    border: 3px solid rgb(143, 86, 39);
+    background:#f0da7c
+}
+th{
+    border: 3px solid rgb(143, 86, 39);
+    background: #e2b24b;
+}
+#pueblos{
+    background: rgb(204, 156, 68);
+    width: 800px;
+    position: relative;
+    left: 80px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+#mapa{
+    margin-left: 50px;
+}
+h5{
+    font-size: 25px;
+}
+.card{
+    background: #f3e5a6;
+}
+#pueblosindigenas{
+    background: #f0d383;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra */
+}
+
+/**Acordeon bootstrap**/
+.accordion-header{
+    background-color: #eed689;
+}
+.accordion-body{
+    background-color: rgb(247, 236, 140);
+}
+#teximg{
+    width: 500px;
+    float: left;
+}
+.cardd{
+    background-color: #f1be50;
+    float: left;
+    margin-right: 100px;
+    margin-left: 80px;
+}
+.dioses{
+    font-size: 28px; 
+    line-height: 5px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.artdioses{
+    background: #f7e893;
+    border-radius: 40px;
+
+  border: 4px double rgb(117, 53, 53); /**Borde punteado de 2px de grosor y color negro**/
+  padding: 10px;
+  margin: 20px; 
+}
+#fuent{
+padding-left: 15px;
+padding-bottom: 5px;
+}
+#arttransparent{
+    background-color: rgba(240, 216, 181, 0.5); /**Fondo blanco con transparencia**/
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /**Sombra para darle profundidad**/
+}
+
+.carrucel{
+    margin: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+#leyindigena{
+    background-color: rgba(255, 247, 140, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 40px;
+}
+#title3{
+    padding-left: 25px;
+}
+.itemm{
+    font-size: 20px;
+}
+#niños{
+    margin-left: 50px;
+}
+#inai{
+    margin-left: 100px;
+}
+.autor{
+    font-size: 18px;
+}
+#ruinas{
+    font-size: 15px; color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   line-height: 20px;
+   margin-top: 0px;
+}
